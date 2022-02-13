@@ -1,0 +1,81 @@
+body {
+    background-image: url("/IMAGE/minion_bg.jpg");
+    background-attachment: fixed;
+    background-position: center;
+    background-size: cover;
+    font-family: 'Oswald', sans-serif;
+}
+
+.page {
+    text-align: center;
+}
+
+header {
+    margin-top: 1rem;
+    text-align: center;
+    background-color: rgb(255, 255, 79);
+    border: 1px solid black;
+    height: 5rem;
+    border-radius: 0.5rem 2rem 0.5rem 2rem;
+}
+
+img {
+    height: 7rem;
+    width: 7rem;
+}
+
+.mainPage {
+    text-align: center;
+    border-radius: 1rem;
+    margin: 0.5rem;
+    color: white;
+}
+
+.contentPage {
+    text-align: center;
+}
+
+.input {
+    padding: 10px;
+    margin: 2rem;
+    background-color: white;
+    height: 8rem;
+    width: 50%;
+    border: 3px solid rgb(61, 61, 235);
+    border-radius: 0.5rem 2rem 0.5rem 2rem;
+}
+
+.output {
+    display: inline-flex;
+    padding: 10px;
+    margin: 2rem;
+    background-color: white;
+    height: 8rem;
+    width: 50%;
+    border: 3px solid rgb(61, 61, 235);
+    border-radius: 0.5rem 2rem 0.5rem 2rem;
+}
+
+.translateBox {
+    background-color: rgb(61, 61, 235);
+    height: 10rem;
+    padding: 20px;
+    border-radius: 0.5rem 2rem 0.5rem 2rem;
+}
+
+button {
+    background-color: rgb(61, 61, 235);
+    color: aliceblue;
+    border-style: none;
+    height: 2rem;
+    width: 10rem;
+    cursor: pointer;
+    border-radius: 0.5rem 2rem 0.5rem 2rem;
+}
+
+.footer {
+    background-color: rgb(255, 255, 79);
+    border: 1px solid black;
+    height: 5rem;
+    border-radius: 0.5rem 2rem 0.5rem 2rem;
+}
